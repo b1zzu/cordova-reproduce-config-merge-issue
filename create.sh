@@ -23,7 +23,7 @@ cp google-services.json "$TYPE-app/"
 
 cd "$TYPE-app/"
 
-cordova plugin add @aerogear/cordova-plugin-aerogear-push@dev
+cordova plugin add phonegap-plugin-push
 
 cordova platform add android
 
